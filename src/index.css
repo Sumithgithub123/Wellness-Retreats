@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer {
+  .input {
+    @apply w-32 rounded bg-violet-950 px-2 py-2 text-sm font-medium text-slate-100 placeholder-slate-100;
+  }
+} */
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
