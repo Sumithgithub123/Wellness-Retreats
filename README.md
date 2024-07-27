@@ -1,8 +1,8 @@
-# React + Vite
+# Application that shows different Wellness Retreat events, workshops etc.
+- Project live Demo is [here](https://wellnessretreats.netlify.app/)
+- 
+- To run the project, follow the below steps:
+  1. Clone the project.
+  2. Open Project and install all dependencies using command 'npm install'.
+  3. Then run the vite react project using command 'npm run dev'.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
