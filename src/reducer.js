@@ -10,13 +10,13 @@ function reducer(state, { type, payload }) {
       return { ...state, error: payload, loading: false };
 
     case "type/set":
-      return { ...state, type: payload, search: "", date: null };
+      return { ...state, type: payload, search: "", date: null, page: 0 };
 
     case "date/set":
-      return { ...state, date: payload, type: "", search: "" };
+      return { ...state, date: payload, type: "", search: "", page: 0 };
 
     case "search/set":
-      return { ...state, search: payload, type: "", date: null };
+      return { ...state, search: payload, type: "", date: null, page: 0 };
 
     case "page/previous":
       return { ...state, page: state.page - 3 };
